@@ -1,5 +1,5 @@
-#ifndef _EMPLOYEE_H
-#define _EMPLOYEE_H
+#ifndef _STORE_H
+#define _STORE_H
 
 #include "employee.h"
 #include <vector>
