@@ -28,6 +28,7 @@ class Employee {
         void setPass(const char* p) { jobTitle = new char[strlen(p) + 1]; }
         void setHours(double h) { hours = h; }
         void setSalary(double s) { salary = s; }
+        void display();
 };
 
 #endif
