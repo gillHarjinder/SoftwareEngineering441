@@ -3,9 +3,9 @@
 
 class Product {
     private:
-        char *name;     //name of the product
-        char *brand;    //brand of the product
-        char *dept;     //department the product is in
+        string name;     //name of the product
+        string brand;    //brand of the product
+        string dept;     //department the product is in
         int quantity;   //quantity of the product
         int msrp;       //retail price of the product
         int price;      //price of product (msrp - discount)
@@ -14,9 +14,9 @@ class Product {
     public:
         Product(const char*, const char*, const char*, int, int);
         ~Product();
-        char *getName() { return name; }
-        char *getBrand() { return brand; }
-        char *getDept() { return dept; }
+        string getName() { return name; }
+        string getBrand() { return brand; }
+        string getDept() { return dept; }
         int getQuantity() { return quantity; }
         int getMsrp() { return msrp; }
         int getPrice() { return price; }
